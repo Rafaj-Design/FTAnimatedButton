@@ -165,7 +165,6 @@
 #pragma mark Initialization
 
 - (void)setupView {
-    [self setBackgroundColor:[UIColor redColor]];
     _animationDuration = 0.2;
     _hiddenAlpha = 1;
     _bounceDistanceInDirection = 10;

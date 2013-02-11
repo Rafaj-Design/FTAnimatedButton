@@ -24,6 +24,26 @@
 		1525174116C920A200F2BF89 /* FTAnimatedButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1525174016C920A200F2BF89 /* FTAnimatedButtonTests.m */; };
 		1525175316C9223900F2BF89 /* FTAnimatedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1525175216C9223900F2BF89 /* FTAnimatedButton.m */; };
 		1525175516C9225000F2BF89 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1525175416C9225000F2BF89 /* QuartzCore.framework */; };
+		1525176816C9286C00F2BF89 /* deviantart_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 1525175816C9286C00F2BF89 /* deviantart_dark.png */; };
+		1525176916C9286C00F2BF89 /* deviantart_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 1525175916C9286C00F2BF89 /* deviantart_active.png */; };
+		1525176A16C9286C00F2BF89 /* deviantart_active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1525175A16C9286C00F2BF89 /* deviantart_active@2x.png */; };
+		1525176B16C9286C00F2BF89 /* deviantart_dark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1525175B16C9286C00F2BF89 /* deviantart_dark@2x.png */; };
+		1525176C16C9286C00F2BF89 /* dribbble_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 1525175C16C9286C00F2BF89 /* dribbble_active.png */; };
+		1525176D16C9286C00F2BF89 /* dribbble_active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1525175D16C9286C00F2BF89 /* dribbble_active@2x.png */; };
+		1525176E16C9286C00F2BF89 /* dribbble_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 1525175E16C9286C00F2BF89 /* dribbble_dark.png */; };
+		1525176F16C9286C00F2BF89 /* dribbble_dark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1525175F16C9286C00F2BF89 /* dribbble_dark@2x.png */; };
+		1525177016C9286C00F2BF89 /* facebook_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 1525176016C9286C00F2BF89 /* facebook_active.png */; };
+		1525177116C9286C00F2BF89 /* facebook_active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1525176116C9286C00F2BF89 /* facebook_active@2x.png */; };
+		1525177216C9286C00F2BF89 /* facebook_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 1525176216C9286C00F2BF89 /* facebook_dark.png */; };
+		1525177316C9286C00F2BF89 /* facebook_dark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1525176316C9286C00F2BF89 /* facebook_dark@2x.png */; };
+		1525177416C9286C00F2BF89 /* twitter_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 1525176416C9286C00F2BF89 /* twitter_active.png */; };
+		1525177516C9286C00F2BF89 /* twitter_active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1525176516C9286C00F2BF89 /* twitter_active@2x.png */; };
+		1525177616C9286C00F2BF89 /* twitter_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 1525176616C9286C00F2BF89 /* twitter_dark.png */; };
+		1525177716C9286C00F2BF89 /* twitter_dark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1525176716C9286C00F2BF89 /* twitter_dark@2x.png */; };
+		1525177A16C92A7E00F2BF89 /* fuerte-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1525177816C92A7D00F2BF89 /* fuerte-logo.png */; };
+		1525177B16C92A7E00F2BF89 /* fuerte-logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1525177916C92A7D00F2BF89 /* fuerte-logo@2x.png */; };
+		1525178016C92BAA00F2BF89 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1525177E16C92BAA00F2BF89 /* background.png */; };
+		1525178116C92BAA00F2BF89 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1525177F16C92BAA00F2BF89 /* background@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +81,26 @@
 		1525175116C9223900F2BF89 /* FTAnimatedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTAnimatedButton.h; sourceTree = "<group>"; };
 		1525175216C9223900F2BF89 /* FTAnimatedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTAnimatedButton.m; sourceTree = "<group>"; };
 		1525175416C9225000F2BF89 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1525175816C9286C00F2BF89 /* deviantart_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deviantart_dark.png; sourceTree = "<group>"; };
+		1525175916C9286C00F2BF89 /* deviantart_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deviantart_active.png; sourceTree = "<group>"; };
+		1525175A16C9286C00F2BF89 /* deviantart_active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deviantart_active@2x.png"; sourceTree = "<group>"; };
+		1525175B16C9286C00F2BF89 /* deviantart_dark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deviantart_dark@2x.png"; sourceTree = "<group>"; };
+		1525175C16C9286C00F2BF89 /* dribbble_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dribbble_active.png; sourceTree = "<group>"; };
+		1525175D16C9286C00F2BF89 /* dribbble_active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dribbble_active@2x.png"; sourceTree = "<group>"; };
+		1525175E16C9286C00F2BF89 /* dribbble_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dribbble_dark.png; sourceTree = "<group>"; };
+		1525175F16C9286C00F2BF89 /* dribbble_dark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dribbble_dark@2x.png"; sourceTree = "<group>"; };
+		1525176016C9286C00F2BF89 /* facebook_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook_active.png; sourceTree = "<group>"; };
+		1525176116C9286C00F2BF89 /* facebook_active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook_active@2x.png"; sourceTree = "<group>"; };
+		1525176216C9286C00F2BF89 /* facebook_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook_dark.png; sourceTree = "<group>"; };
+		1525176316C9286C00F2BF89 /* facebook_dark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook_dark@2x.png"; sourceTree = "<group>"; };
+		1525176416C9286C00F2BF89 /* twitter_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter_active.png; sourceTree = "<group>"; };
+		1525176516C9286C00F2BF89 /* twitter_active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter_active@2x.png"; sourceTree = "<group>"; };
+		1525176616C9286C00F2BF89 /* twitter_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter_dark.png; sourceTree = "<group>"; };
+		1525176716C9286C00F2BF89 /* twitter_dark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter_dark@2x.png"; sourceTree = "<group>"; };
+		1525177816C92A7D00F2BF89 /* fuerte-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fuerte-logo.png"; sourceTree = "<group>"; };
+		1525177916C92A7D00F2BF89 /* fuerte-logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fuerte-logo@2x.png"; sourceTree = "<group>"; };
+		1525177E16C92BAA00F2BF89 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		1525177F16C92BAA00F2BF89 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +174,7 @@
 		1525171616C920A200F2BF89 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1525175716C9286C00F2BF89 /* Assets */,
 				1525171716C920A200F2BF89 /* FTAnimatedButton-Info.plist */,
 				1525171816C920A200F2BF89 /* InfoPlist.strings */,
 				1525171B16C920A200F2BF89 /* main.m */,
@@ -181,6 +222,49 @@
 				1525175216C9223900F2BF89 /* FTAnimatedButton.m */,
 			);
 			name = "Animated button classes";
+			sourceTree = "<group>";
+		};
+		1525175716C9286C00F2BF89 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1525177D16C92B8E00F2BF89 /* Icons */,
+				1525177C16C92B8600F2BF89 /* Environment */,
+			);
+			path = Assets;
+			sourceTree = SOURCE_ROOT;
+		};
+		1525177C16C92B8600F2BF89 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				1525177E16C92BAA00F2BF89 /* background.png */,
+				1525177F16C92BAA00F2BF89 /* background@2x.png */,
+				1525177816C92A7D00F2BF89 /* fuerte-logo.png */,
+				1525177916C92A7D00F2BF89 /* fuerte-logo@2x.png */,
+			);
+			name = Environment;
+			sourceTree = "<group>";
+		};
+		1525177D16C92B8E00F2BF89 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				1525175816C9286C00F2BF89 /* deviantart_dark.png */,
+				1525175916C9286C00F2BF89 /* deviantart_active.png */,
+				1525175A16C9286C00F2BF89 /* deviantart_active@2x.png */,
+				1525175B16C9286C00F2BF89 /* deviantart_dark@2x.png */,
+				1525175C16C9286C00F2BF89 /* dribbble_active.png */,
+				1525175D16C9286C00F2BF89 /* dribbble_active@2x.png */,
+				1525175E16C9286C00F2BF89 /* dribbble_dark.png */,
+				1525175F16C9286C00F2BF89 /* dribbble_dark@2x.png */,
+				1525176016C9286C00F2BF89 /* facebook_active.png */,
+				1525176116C9286C00F2BF89 /* facebook_active@2x.png */,
+				1525176216C9286C00F2BF89 /* facebook_dark.png */,
+				1525176316C9286C00F2BF89 /* facebook_dark@2x.png */,
+				1525176416C9286C00F2BF89 /* twitter_active.png */,
+				1525176516C9286C00F2BF89 /* twitter_active@2x.png */,
+				1525176616C9286C00F2BF89 /* twitter_dark.png */,
+				1525176716C9286C00F2BF89 /* twitter_dark@2x.png */,
+			);
+			name = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +343,26 @@
 				1525172216C920A200F2BF89 /* Default.png in Resources */,
 				1525172416C920A200F2BF89 /* Default@2x.png in Resources */,
 				1525172616C920A200F2BF89 /* Default-568h@2x.png in Resources */,
+				1525176816C9286C00F2BF89 /* deviantart_dark.png in Resources */,
+				1525176916C9286C00F2BF89 /* deviantart_active.png in Resources */,
+				1525176A16C9286C00F2BF89 /* deviantart_active@2x.png in Resources */,
+				1525176B16C9286C00F2BF89 /* deviantart_dark@2x.png in Resources */,
+				1525176C16C9286C00F2BF89 /* dribbble_active.png in Resources */,
+				1525176D16C9286C00F2BF89 /* dribbble_active@2x.png in Resources */,
+				1525176E16C9286C00F2BF89 /* dribbble_dark.png in Resources */,
+				1525176F16C9286C00F2BF89 /* dribbble_dark@2x.png in Resources */,
+				1525177016C9286C00F2BF89 /* facebook_active.png in Resources */,
+				1525177116C9286C00F2BF89 /* facebook_active@2x.png in Resources */,
+				1525177216C9286C00F2BF89 /* facebook_dark.png in Resources */,
+				1525177316C9286C00F2BF89 /* facebook_dark@2x.png in Resources */,
+				1525177416C9286C00F2BF89 /* twitter_active.png in Resources */,
+				1525177516C9286C00F2BF89 /* twitter_active@2x.png in Resources */,
+				1525177616C9286C00F2BF89 /* twitter_dark.png in Resources */,
+				1525177716C9286C00F2BF89 /* twitter_dark@2x.png in Resources */,
+				1525177A16C92A7E00F2BF89 /* fuerte-logo.png in Resources */,
+				1525177B16C92A7E00F2BF89 /* fuerte-logo@2x.png in Resources */,
+				1525178016C92BAA00F2BF89 /* background.png in Resources */,
+				1525178116C92BAA00F2BF89 /* background@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

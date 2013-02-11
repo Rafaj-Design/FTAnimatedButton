@@ -36,7 +36,7 @@
     [_button2 animateToView:self.view fromOrigin:CGPointMake(150, -30) withDirection:FTAnimatedButtonAppearanceDirectionTop andDelay:0.1];
     [_button3 animateToView:self.view fromOrigin:CGPointMake(320, 180) withDirection:FTAnimatedButtonAppearanceDirectionRight andDelay:0.2];
     [_button4 animateToView:self.view withDirection:FTAnimatedButtonAppearanceDirectionBottom andDelay:0.3];
-    [NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(hideButtons) userInfo:nil repeats:NO];
+    [NSTimer scheduledTimerWithTimeInterval:6 target:self selector:@selector(hideButtons) userInfo:nil repeats:NO];
 }
 
 - (void)hideButtons {
@@ -44,7 +44,7 @@
     [_button2 hide];
     [_button3 hide];
     [_button4 hide];
-    [NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(showButtons) userInfo:nil repeats:NO];
+    [NSTimer scheduledTimerWithTimeInterval:4 target:self selector:@selector(showButtons) userInfo:nil repeats:NO];
 }
 
 #pragma mark Creating elements
@@ -54,17 +54,35 @@
     
     CGFloat bottom = [self isBigPhone] ? 548 : 460;
     
-    _button1 = [[FTAnimatedButton alloc] initWithFrame:CGRectMake(0, 0, 30, 30)];
+    UIImageView *background = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"background"]];
+    [self.view addSubview:background];
     
-    _button2 = [[FTAnimatedButton alloc] initWithFrame:CGRectMake(0, 0, 30, 30)];
+    _button1 = [[FTAnimatedButton alloc] initWithFrame:CGRectMake(0, 0, 32, 32)];
+    [_button1 setImage:[UIImage imageNamed:@"facebook_dark"] forState:UIControlStateNormal];
+    [_button1 setImage:[UIImage imageNamed:@"facebook_active"] forState:UIControlStateHighlighted];
     
-    _button3 = [[FTAnimatedButton alloc] initWithFrame:CGRectMake(0, 0, 30, 30)];
+    _button2 = [[FTAnimatedButton alloc] initWithFrame:CGRectMake(0, 0, 32, 32)];
+    [_button2 setImage:[UIImage imageNamed:@"dribbble_dark"] forState:UIControlStateNormal];
+    [_button2 setImage:[UIImage imageNamed:@"dribbble_active"] forState:UIControlStateHighlighted];
+    
+    _button3 = [[FTAnimatedButton alloc] initWithFrame:CGRectMake(0, 0, 32, 32)];
+    [_button3 setImage:[UIImage imageNamed:@"twitter_dark"] forState:UIControlStateNormal];
+    [_button3 setImage:[UIImage imageNamed:@"twitter_active"] forState:UIControlStateHighlighted];
     [_button3 setEnableRotation:NO];
     
-    _button4 = [[FTAnimatedButton alloc] initWithFrame:CGRectMake(150, bottom, 30, 30)];
-    [_button4 setAnimationDuration:1.2];
+    _button4 = [[FTAnimatedButton alloc] initWithFrame:CGRectMake(150, bottom, 32, 32)];
+    [_button4 setImage:[UIImage imageNamed:@"deviantart_dark"] forState:UIControlStateNormal];
+    [_button4 setImage:[UIImage imageNamed:@"deviantart_active"] forState:UIControlStateHighlighted];
+    [_button4 setAnimationDuration:0.8];
     [_button4 setDistanceInDirection:120];
     [_button4 setBounceDistanceInDirection:20];
+    
+    UIImageView *logo = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"fuerte-logo"]];
+    CGRect r = logo.frame;
+    r.origin.x = 60;
+    r.origin.y = 100;
+    [logo setFrame:r];
+    [self.view addSubview:logo];
     
     [self showButtons];
 }
